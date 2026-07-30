@@ -6,6 +6,9 @@ This change log adheres to standards from [Keep a CHANGELOG](https://keepachange
 
 ## Unreleased
 
+### Breaking
+* Drop support for Node 4 and ESLint 3 and 4 ([#3979][] @plthomasva)
+
 ### Added
 * [`async-server-action`]: add rule ([#3729][] @jorgezreik)
 * [`jsx-props-no-multi-spaces`]: improve autofix for multi-line ([#3930][] @justisb)
@@ -27,7 +30,6 @@ This change log adheres to standards from [Keep a CHANGELOG](https://keepachange
 * Support ESLint v10 by migrating off deprecated AST properties ([#3979][] @plthomasva)
 
 ### Changed
-* Drop support for Node 4 and ESLint 3 and 4 ([#3979][] @plthomasva)
 * [`react-in-jsx-scope`], [`jsx-uses-react`]: automatically disable when React >= 19 is detected ([#XXXX][] @jonkoops)
 * [Docs] [`no-array-index-key`]: add template literal examples ([#3978][] @akahoshi1421)
 
